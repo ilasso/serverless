@@ -73,10 +73,10 @@ functions:
           path: /user
           method: get
           cors: true
-#      - http:
-#          path: /{proxy*}
-#          method: any
-#          cors: true
+      - http:
+          path: /{proxy+}
+          method: any
+          cors: true
 #      - websocket: $connect
 #      - s3: ${env:BUCKET}
 #      - schedule: rate(10 minutes)
