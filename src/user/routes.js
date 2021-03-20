@@ -10,7 +10,7 @@ routes.get('/', (req, res) =>{
 });
 
 routes.get('/user', (req, res) =>{
-    res.status(200).json({"message":"soy user tambien"});
+    res.status(200).json({"message":"soy user tambien ok"});
 });
 
 module.exports = {
